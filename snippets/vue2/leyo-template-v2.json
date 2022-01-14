@@ -1,0 +1,13 @@
+{
+  "leyo-template-v2": {
+    "prefix": "lytemp-v2",
+    "body": [
+      "<template lang=\"$1\">",
+      "\t<div$2>",
+      "\t\t$0",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "vue2的template模板"
+  }
+}

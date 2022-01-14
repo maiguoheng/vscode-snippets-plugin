@@ -1,0 +1,13 @@
+{
+  "leyo-for-loop-ts": {
+    "prefix": "lyforloop-ts",
+    "body": [
+      "for (const key in object) {",
+      "  if (Object.hasOwnProperty.call(object, key)) {",
+      "    const element = object[key];",
+      "  }",
+      "}"
+    ],
+    "description": "ts的for-loop模板"
+  }
+}

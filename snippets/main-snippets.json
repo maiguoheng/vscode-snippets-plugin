@@ -1,0 +1,46 @@
+{
+  "leyo-for-loop-js": {
+    "prefix": "lyforloop-js",
+    "body": [
+      "for (const key in object) {",
+      "  if (Object.hasOwnProperty.call(object, key)) {",
+      "    const element = object[key];",
+      "  }",
+      "}"
+    ],
+    "description": "js的for-loop模板"
+  },
+  "leyo-for-loop-ts": {
+    "prefix": "lyforloop-ts",
+    "body": [
+      "for (const key in object) {",
+      "  if (Object.hasOwnProperty.call(object, key)) {",
+      "    const element = object[key];",
+      "  }",
+      "}"
+    ],
+    "description": "ts的for-loop模板"
+  },
+  "leyo-template-v2": {
+    "prefix": "lytemp-v2",
+    "body": [
+      "<template lang=\"$1\">",
+      "\t<div$2>",
+      "\t\t$0",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "vue2的template模板"
+  },
+  "leyo-template-v3": {
+    "prefix": "lytemp-v3",
+    "body": [
+      "<template lang=\"$1\">",
+      "\t<div$2>",
+      "\t\t$0",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "vue3的template模板"
+  }
+}

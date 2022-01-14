@@ -1,0 +1,36 @@
+{
+  "name": "eeveelution",
+  "displayName": "eeveelution",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "ptcode": "prettier --write .",
+    "build:snip": "node ./build/snippets.js",
+    "build:temp": "node ./build/template.js"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/main-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/main-snippets.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/main-snippets.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
